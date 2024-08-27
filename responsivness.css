@@ -1,0 +1,75 @@
+@media (max-width: 480px) {
+
+    /* SKILL */
+
+    .skill-box {
+        flex: 1 1 90%;
+        max-width: 90%;
+    }
+
+    /* PROJECT */
+     .project-card {
+        flex: 1 1 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    /* NAVBAR */
+
+    nav {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* ABOUT */
+
+    .about-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .left {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+    
+    .right {
+        padding: 2rem 1rem; 
+    }
+    .about-img {
+        max-width: 100%;
+    }
+
+    /* SKILL */
+
+    .skill-box {
+        flex: 1 1 45%;
+        max-width: 45%;
+    }
+
+    /* PROJECT */
+
+    .project-card {
+        flex: 1 1 45%;
+    }
+
+    /* CONTACT */
+
+    .contact-card {
+        padding: 1rem;
+    }
+}
