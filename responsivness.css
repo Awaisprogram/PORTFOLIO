@@ -20,6 +20,10 @@
     nav, .button {
         display: none;
     }
+    .skills-box p{
+        font-size:.8rem;
+    }
+
 
     .menu-icon {
         display: block;
