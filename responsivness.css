@@ -17,7 +17,7 @@
 @media (max-width: 768px) {
     /* NAVBAR */
 
-    nav {
+    nav, .button {
         display: none;
     }
 
